@@ -9,7 +9,7 @@ redirect_from:
 
 I'm a third year undergraduate student in [Sichuan University](https://www.scu.edu.cn/), majoring in Computer Science and Technology (Top-notch Program). My research interest includes Machine learning system, high perfomance computing and distributed machine learning. 
 
-Currently, I'm an research assistant at [Dicalab](http://www.dicalab.cn/)  advised by [Prof. Qing Ye](https://scholar.google.com/citations?user=jLoTsBYAAAAJ&hl=zh-CN&oi=ao)
+Currently, I'm an research assistant in [Dicalab](http://www.dicalab.cn/)  advised by [Prof. Qing Ye](https://scholar.google.com/citations?user=jLoTsBYAAAAJ&hl=zh-CN&oi=ao)
 
 
 ## Education
@@ -24,10 +24,10 @@ Currently, I'm an research assistant at [Dicalab](http://www.dicalab.cn/)  advis
 ### Layer-wised Sparsification Based on Hypernetwork for Distributed NN Training
 *Team Lead, Supervised by Qing Ye (Sichuan University)*
 ![pic1](../images/Layer-wised_Sparsification_Based_on_Hypernetwork_for_Distributed_NN_Training.png)
-* We propose layer-wised sparsification which utilizes hypernetworks to narrow down the communication volume. To the best of our knowledge, this is the first work of applying hypernetwork to select the layers for transmission rather than manual selection in distributed training.
-* An objective function for the hypernetwork is successfully constructed to learn the importance of different layers. This method effectively approximates the significance of each layer during the training process.
-* Extensive experiments are conducted on different models and datasets. The results validate the efficacy of our method and demonstrate its compatibility with other compression techniques. For instance, our layer-wised sparsification method can be combined with existing techniques such as quantization and sparsification, as shown in our experiments, to further enhance the reduction in communication volume.
-* Outcome: (1<sup>st</sup> author) A paper in submission.
+* Proposed a layer-wised sparsification method which utilizes hypernetworks to narrow down the communication volume. 
+* Constructed an efficient objective function for the hypernetwork to guide the selection of layers for transmission, ensuring that layers which contribute more to the learning process are prioritized to transmit.
+* Conducted extensive experiments on different models and datasets. The results validate the efficacy of our method and demonstrate its compatibility with other current compression techniques (e.g., TernGrad, Top-K).
+* Outcome: (1<sup>st</sup> author) A research paper in submission.
 
 ## Award & Scholarships
 * National Scholarship in Sichuan University, 2021-2022
