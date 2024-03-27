@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yusen Wu"
+title                    : "Yusen Wu's Homepage"
 title_separator          : "-"
-name                     : &name "Yusen Wu's Homepage"
-description              : &description "personal description"
+name                     : &name "Yusen Wu"
+description              : &description "an undergraduate student from Sichuan University"
 url                      : https://JoshWoo2003.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JoshWoo2003/JoshWoo2003.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Yusen Wu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : # "Short biography for the left-hand sidebar"
   location         : "Chengdu, China"
   employer         : "Sichuan University"
   uri              : # URL
