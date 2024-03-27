@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yusen Wu's Homepage"
+title                    : "Yusen Wu"
 title_separator          : "-"
 name                     : &name "Yusen Wu"
 description              : &description "an undergraduate student from Sichuan University"
@@ -21,7 +21,7 @@ repository               : "JoshWoo2003/JoshWoo2003.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "myprofile.png"
   name             : "Yusen Wu"
   pronouns         : # example: "she/her"  
   bio              : "An undergraduate student from Sichuan University"
