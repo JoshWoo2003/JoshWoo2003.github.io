@@ -27,7 +27,7 @@ Currently, I'm an research assistant at [Dicalab](http://www.dicalab.cn/)  advis
 * We propose layer-wised sparsification which utilizes hypernetworks to narrow down the communication volume. To the best of our knowledge, this is the first work of applying hypernetwork to select the layers for transmission rather than manual selection in distributed training.
 * An objective function for the hypernetwork is successfully constructed to learn the importance of different layers. This method effectively approximates the significance of each layer during the training process.
 * Extensive experiments are conducted on different models and datasets. The results validate the efficacy of our method and demonstrate its compatibility with other compression techniques. For instance, our layer-wised sparsification method can be combined with existing techniques such as quantization and sparsification, as shown in our experiments, to further enhance the reduction in communication volume.
-* Outcome: ($1^{\text{st}}$ author) A paper in submission.
+* Outcome: (1<sup>st</sup> author) A paper in submission.
 
 ## Award & Scholarships
 * National Scholarship in Sichuan University, 2021-2022
