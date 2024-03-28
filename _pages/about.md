@@ -40,4 +40,4 @@ Currently, I'm an research assistant in [Dicalab](http://www.dicalab.cn/)  advis
 * Third Prize, The 15th Lanqiao Cup - National Final in C/C++ Programming, 2023
 * Third Prize, 2023 National College Computer Competition - Group Programming Ladder Tournament National Final, 2023
 * Second Prize, 2023 National University of Singapore School of Computing Summer Workshop (Visual Computing), 2023 
-* First Prize, China Undergraduate Mathematical Contest (Sichuan), 2023
+* First Prize, China Undergraduate Mathematical Contest in Modelling (Sichuan), 2023
