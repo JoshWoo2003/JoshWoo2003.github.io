@@ -30,7 +30,7 @@ Currently, I'm an research assistant in [Dicalab](http://www.dicalab.cn/)  advis
 * Outcome: (1<sup>st</sup> author) A research paper in submission.
 
 ## Skills
-* Programming Languages: Python, C/C++, MATLAB, $\LaTeX$
+* Programming Languages: Python, C/C++, MATLAB, LaTex
 
 ## Award & Scholarships
 * National Scholarship in Sichuan University, 2021-2022
