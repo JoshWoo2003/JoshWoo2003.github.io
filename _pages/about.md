@@ -29,6 +29,9 @@ Currently, I'm an research assistant in [Dicalab](http://www.dicalab.cn/)  advis
 * Conducted extensive experiments on different models and datasets. The results validate the efficacy of our method and demonstrate its compatibility with other current compression techniques (e.g., TernGrad, Top-K).
 * Outcome: (1<sup>st</sup> author) A research paper in submission.
 
+## Skills
+* Programming Languages: Python, C/C++, MATLAB, $\LaTeX$
+
 ## Award & Scholarships
 * National Scholarship in Sichuan University, 2021-2022
 * Merit Student in Sichuan University, 2021-2022
