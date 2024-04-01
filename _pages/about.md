@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a third year undergraduate student in [Sichuan University](https://www.scu.edu.cn/), majoring in Computer Science and Technology (Top-notch Program). My research interest includes Machine learning system, high perfomance computing and distributed machine learning. 
+I'm a third year undergraduate student in [Sichuan University](https://www.scu.edu.cn/), majoring in Computer Science and Technology (Top-notch Program). My research interest includes Machine learning system, high perfomance computing and distributed system. 
 
 Currently, I'm an research assistant in [Dicalab](http://www.dicalab.cn/)  advised by [Prof. Qing Ye](https://scholar.google.com/citations?user=jLoTsBYAAAAJ&hl=zh-CN&oi=ao)
 
