@@ -11,7 +11,7 @@ I'm a third year undergraduate student in [Sichuan University](https://www.scu.e
 
 Currently, I'm an research assistant in [Dicalab](http://www.dicalab.cn/)  advised by [Prof. Qing Ye](https://scholar.google.com/citations?user=jLoTsBYAAAAJ&hl=zh-CN&oi=ao)
 
-
+I am a highly self-motivated undergraduate eagerly seeking admission to a Ph.D. program.
 ## Education
 
 ### Bachelor: Sichuan University (2021.9 ~ )
