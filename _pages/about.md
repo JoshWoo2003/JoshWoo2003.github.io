@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm a third year undergraduate student in [Sichuan University](https://www.scu.edu.cn/), majoring in Computer Science and Technology (Top-notch Program). My research interest includes Machine learning system, high perfomance computing and distributed system. 
+I'm a third year undergraduate student at [Sichuan University](https://www.scu.edu.cn/), majoring in Computer Science and Technology (Top-notch Program). My research interest includes Machine learning system, high perfomance computing and distributed system. 
 
-Currently, I'm a research assistant in [Dicalab](http://www.dicalab.cn/)  advised by [Prof. Qing Ye](https://scholar.google.com/citations?user=jLoTsBYAAAAJ&hl=zh-CN&oi=ao)
+Currently, I'm a remote intern in [Ds<sup>2</sup>Lab](https://ds2-lab.github.io/) at [University of Virginia](https://www.virginia.edu) advised by [Prof. Yue Cheng](https://tddg.github.io/). I used to be a research assistant in [Dicalab](http://www.dicalab.cn/) at [Sichuan University](https://www.scu.edu.cn/) advised by [Prof. Qing Ye](https://scholar.google.com/citations?user=jLoTsBYAAAAJ&hl=zh-CN&oi=ao)
 
 I am a highly self-motivated undergraduate eagerly seeking admission to a Ph.D. program.
 ## Education
