@@ -27,7 +27,7 @@ I am a highly self-motivated undergraduate eagerly seeking admission to a Ph.D. 
 * Proposed a layer-wised sparsification method which utilizes hypernetworks to narrow down the communication volume. 
 * Constructed an efficient objective function for the hypernetwork to guide the selection of layers for transmission, ensuring that layers which contribute more to the learning process are prioritized to transmit.
 * Conducted extensive experiments on different models and datasets. The results validate the efficacy of our method and demonstrate its compatibility with other current compression techniques (e.g., TernGrad, Top-K).
-* Outcome: (1<sup>st</sup> author) A research paper in submission.
+* Outcome: (1<sup>st</sup> author) A research paper accepted by ICANN2024.
 
 ## Skills
 * Programming Languages: Python, C/C++, MATLAB, LaTex
