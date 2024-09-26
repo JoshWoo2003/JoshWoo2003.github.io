@@ -17,7 +17,7 @@ I am a highly self-motivated undergraduate eagerly seeking admission to a Ph.D. 
 ### Bachelor: Sichuan University (2021.9 ~ )
 * **Major**: Computer Science and Technology (Top-notch Program), College of Computer Science
 * **GPA**: 3.93 / 4.00
-* **Average Score**: 92.60 / 100
+* **Average Score**: 92.80 / 100
 
 ## Recent Research
 
