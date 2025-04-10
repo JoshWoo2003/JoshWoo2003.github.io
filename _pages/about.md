@@ -11,7 +11,7 @@ I'm a fourth year undergraduate student at [Sichuan University](https://www.scu.
 
 Currently, I'm a remote intern in [Ds<sup>2</sup>Lab](https://ds2-lab.github.io/) at [University of Virginia](https://www.virginia.edu) advised by [Prof. Yue Cheng](https://tddg.github.io/). I used to be a research assistant in [Dicalab](http://www.dicalab.cn/) at [Sichuan University](https://www.scu.edu.cn/) advised by [Prof. Qing Ye](https://scholar.google.com/citations?user=jLoTsBYAAAAJ&hl=zh-CN&oi=ao)
 
-I am a highly self-motivated undergraduate eagerly seeking admission to a Ph.D. program.
+I will join the University of Virginia as a Ph.D. student starting in 2025 Fall.
 ## Education
 
 ### Bachelor: Sichuan University (2021.9 ~ )
