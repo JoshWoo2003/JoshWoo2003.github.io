@@ -18,6 +18,7 @@ I will join the University of Virginia as a Ph.D. student starting in 2025 Fall.
 * **Major**: Computer Science and Technology (Top-notch Program), College of Computer Science
 * **GPA**: 3.93 / 4.00
 * **Average Score**: 92.80 / 100
+<!--
 * **Rank**: 4 / 357
 
 ## Recent Research
@@ -44,4 +45,4 @@ I will join the University of Virginia as a Ph.D. student starting in 2025 Fall.
 * Third Prize, The 15th Lanqiao Cup - National Final in C/C++ Programming, 2023
 * Third Prize, 2023 National College Computer Competition - Group Programming Ladder Tournament National Final, 2023
 * Second Prize, 2023 National University of Singapore School of Computing Summer Workshop (Visual Computing), 2023 
-* First Prize, China Undergraduate Mathematical Contest in Modelling (Sichuan), 2023
+* First Prize, China Undergraduate Mathematical Contest in Modelling (Sichuan), 2023 -->
