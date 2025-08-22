@@ -1,8 +1,6 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-08-19
 inline: true
-related_posts: false
 ---
-
-A simple inline announcement.
+Our paper **ZenFlow** has been officially adopted into [DeepSpeed](https://github.com/microsoft/DeepSpeed) and featured on the [PyTorch Blog](https://pytorch.org/blog/zenflow-stall-free-offloading-engine-for-llm-training/)! 🚀
