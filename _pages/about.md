@@ -30,7 +30,7 @@ latest_posts:
 ---
 
 Hi, I’m **Yusen Wu (吴宇森)**.  
-I am a **PhD student in Computer Science at the University of Virginia (UVA)**, advised by [Prof. Yue Cheng](https://tddg.github.io/).  
+I am a **PhD student in Computer Science at the University of Virginia (UVA)**, advised by [Prof. Yue Cheng](https://tddg.github.io/).
 
 My research focuses on **machine learning systems**, **distributed systems**, and **cloud computing**.  
 I am broadly interested in building better systems for machine learning applications, with a particular focus on improving efficiency and scalability. This includes exploring techniques for both training and serving large models, as well as designing computing and storage systems that better support distributed ML workloads.
