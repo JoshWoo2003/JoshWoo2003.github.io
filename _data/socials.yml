@@ -7,17 +7,10 @@
 # bluesky_url: # your bluesky URL
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
-# email: xrn4ub@virginia.edu # your email address
-- name: Email
-  icon: fas fa-envelope
-  url: mailto:xrn4ub@virginia.edu
-
-- name: GitHub
-  icon: fab fa-github
-  url: https://github.com/JoshWoo2003
+email: xrn4ub@virginia.edu # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-# github_username: # your GitHub user name
+github_username: JoshWoo2003 # your GitHub user name
 # gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
