@@ -33,7 +33,7 @@ announcements:
 
 Hi, I’m **Yusen Wu (吴宇森)**, a second-year **Ph.D. student in Computer Science at the University of Virginia**, advised by [Prof. Yue Cheng](https://tddg.github.io/).
 
-My research focuses on **systems for machine learning**, **serverless computing**, and **cloud infrastructure**. I build systems that make GPUs easier and cheaper to use for training, serving, and interactive ML workloads.
+My research focuses on **machine learning systems**, **distributed systems**, and **serverless computing**. I am broadly interested in building better systems for machine learning, with a particular focus on improving efficiency and scalability for training, serving, and interactive workloads.
 
 Before joining UVA, I obtained my **B.S. in Computer Science and Technology** from [Sichuan University](https://www.scu.edu.cn/), where I was part of the Top-notch Program.
 
