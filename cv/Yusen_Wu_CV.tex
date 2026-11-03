@@ -1,0 +1,86 @@
+% !TEX program = xelatex
+% Build: latexmk -xelatex Yusen_Wu_CV.tex   (lualatex also works)
+% Then copy Yusen_Wu_CV.pdf to ../assets/pdf/ for the website.
+% Template: billryan/resume (MIT, see LICENSE-billryan-resume): resume.cls,
+%   fontawesome.sty, fontawesomesymbols-*.tex, fonts/
+% This file is public (the website repo is public), so it has no phone number.
+\documentclass{resume}
+\usepackage{fontspec}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+
+\begin{document}
+
+\pagenumbering{gobble} % suppress displaying page number
+\vspace{-2.0em}
+\name{Yusen Wu}
+
+\basicInfo{
+  \email{xrn4ub@virginia.edu} \textperiodcentered\
+  \homepage[joshwoo2003.github.io]{https://joshwoo2003.github.io} \textperiodcentered\
+  \linkedin[Yusen Wu]{https://www.linkedin.com/in/yusen-wu-a93021381/}
+}
+\vspace{-1.0em}
+
+\section{\faList~\textbf{Education}}
+
+\datedsubsection{\textbf{University of Virginia (UVA)}, Charlottesville, VA, USA}{2025.08 -- Present}
+\textit{Ph.D.} in Computer Science \qquad Advisor: Yue Cheng\\
+\vspace{-1.0em}
+
+\datedsubsection{\textbf{Sichuan University (SCU)}, Chengdu, China}{2021.09 -- 2025.06}
+\textit{B.E.} in Computer Science and Technology (Top-notch Program)\\
+\vspace{-1.0em}
+
+\section{\faList~\textbf{Publications}}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{[SIGMOD'27]} Tingfeng Lan, \textbf{Yusen Wu}, Bin Ma, Zhaoyuan Su, Rui Yang, Tekin Bicer, Masahiro Tanaka, Olatunji Ruwase, Dong Li, Yue Cheng.
+    \href{https://arxiv.org/abs/2505.12242}{\textit{ZenFlow: Enabling Stall-Free Offloading for LLM Training.}}
+    ACM SIGMOD International Conference on Management of Data (SIGMOD), 2027. To appear.
+  \item \textbf{[Preprint]} \textbf{Yusen Wu}, Tingfeng Lan, Benjamin Carver, Haoliang Wang, Geoffrey Fox, Yue Cheng.
+    \href{https://arxiv.org/abs/2610.33275}{\textit{LooseLeaf: Enabling Serverless GPUs for Computational Notebooks.}}
+    Under revision at VLDB 2027.
+\end{itemize}
+\vspace{-1.0em}
+
+\section{\faList~\textbf{Research Experience}}
+
+\datedsubsection{\textbf{\fontsize{10.5pt}{12pt}\selectfont LooseLeaf: Enabling Serverless GPUs for Computational Notebooks}}{2025.09 -- 2026.09}
+\role{Project Lead}{Advisor: Yue Cheng (UVA)}
+\vspace{-1.0em}
+\begin{itemize}
+  \item Built LooseLeaf, a serverless GPU platform that allocates GPUs per notebook cell, acquiring a GPU only when a GPU cell runs and reclaiming it right after, instead of pinning one to the whole session.
+  \item Characterized $\sim$5,000 real-world notebooks and showed that a GPU cell needs only a small part of the session state, which LooseLeaf derives by static analysis and loads into a GPU worker while the user edits.
+  \item Designed a per-variable checkpoint store that preserves object sharing across variables, and a CUDA-safe import cache that forks GPU workers with their packages preloaded.
+  \item Started 95--98\% of GPU cells within one second and cut GPU-hours by 43--70\% versus session-pinned GPUs and by 32--55\% versus NotebookOS (ASPLOS'26).
+\end{itemize}
+\vspace{-1.0em}
+
+\datedsubsection{\textbf{\fontsize{10.5pt}{12pt}\selectfont ZenFlow: Enabling Stall-Free Offloading for LLM Training}}{2024.04 -- 2025.10}
+\role{Lead Implementer}{Advisors: Yue Cheng (UVA) and Dong Li (UC Merced)}
+\vspace{-1.0em}
+\begin{itemize}
+  \item Co-developed ZenFlow, an offloading framework for LLM fine-tuning that updates important gradients on the GPU right away and applies the rest asynchronously on the CPU, reducing GPU stalls.
+  \item Led the $\sim$11K-line implementation on DeepSpeed, including gradient selection across sharded GPUs, and proposed a column-major gradient layout that makes channel-wise selection efficient.
+  \item Achieved up to 5$\times$ speedup, 85\% fewer GPU stalls, and 72\% lower cloud GPU cost with no accuracy loss.
+\end{itemize}
+\vspace{-1.0em}
+
+\section{\faList~\textbf{Open Source \& Deployment}}
+\datedline{\textbf{ZenFlow in DeepSpeed} (\href{https://github.com/deepspeedai/DeepSpeed/pull/7391}{\#7391}, \href{https://github.com/deepspeedai/DeepSpeed/pull/7516}{\#7516}), featured on the \href{https://pytorch.org/blog/zenflow-stall-free-offloading-engine-for-llm-training/}{PyTorch Blog}}{2025.08 -- 2025.10}
+\datedline{\textbf{LooseLeaf at \href{https://looseleafcloud.org}{looseleafcloud.org}}, open to the UVA community}{2026.10 -- Present}
+
+\section{\faList~\textbf{Honors and Awards}}
+\datedline{National Scholarship, Ministry of Education of China (top 0.2\% nationwide)}{2021 -- 2022}
+\datedline{First Prize Scholarship, Sichuan University}{2023 -- 2024}
+\datedline{Merit Student, Sichuan University (three times)}{2021 -- 2024}
+
+\section{\faList~\textbf{Skills}}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{Programming:} C/C++, CUDA, Python
+  \item \textbf{Systems and Tools:} PyTorch, DeepSpeed, Ray, Redis, Slurm
+\end{itemize}
+
+\end{document}
