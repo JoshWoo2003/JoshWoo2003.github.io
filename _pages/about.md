@@ -35,7 +35,7 @@ Hi, I’m **Yusen Wu (吴宇森)**, a second-year **Ph.D. student in Computer Sc
 
 My research focuses on **machine learning systems**, **distributed systems**, and **serverless computing**. I am broadly interested in building better systems for machine learning, with a particular focus on improving efficiency and scalability for training, serving, and interactive workloads.
 
-Before joining UVA, I obtained my **B.S. in Computer Science and Technology** from [Sichuan University](https://www.scu.edu.cn/), where I was part of the Top-notch Program.
+Before joining UVA, I obtained my **B.E. in Computer Science and Technology** from [Sichuan University](https://www.scu.edu.cn/), where I was part of the Top-notch Program.
 
 **I am looking for research internships for Summer 2027.** Feel free to reach me at **xrn4ub _AT_ virginia.edu**.
 
