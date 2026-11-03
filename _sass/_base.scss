@@ -747,6 +747,12 @@ footer.sticky-bottom {
           margin-bottom: 0.5rem;
           color: #fff !important; // was the card background color, which is near-black in dark mode
 
+          // the venue name sits in a <div>, which the global `div { color: var(--global-text-color) }` rule
+          // would otherwise turn black in light mode
+          div {
+            color: #fff;
+          }
+
           a {
             color: white;
 
