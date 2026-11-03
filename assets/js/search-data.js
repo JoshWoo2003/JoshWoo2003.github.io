@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "news-zenflow-has-been-officially-adopted-into-deepspeed-and-featured-on-the-pytorch-blog",
           title: 'ZenFlow has been officially adopted into DeepSpeed and featured on the PyTorch Blog!...',
           description: "",
@@ -44,6 +51,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/JoshWoo2003", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/yusen-wu-a93021381", "_blank");
         },
       },{
       id: 'light-theme',
