@@ -28,8 +28,8 @@ ninja.data = [{
           section: "News",},{id: "news-our-looseleaf-paper-is-now-on-arxiv",
           title: '📄 Our LooseLeaf paper is now on arXiv.',
           description: "",
-          section: "News",},{id: "news-we-launched-looseleaf-a-jupyter-notebook-platform-with-serverless-gpus-now-open-to-everyone-at-uva",
-          title: '🚀 We launched LooseLeaf, a Jupyter notebook platform with serverless GPUs, now open...',
+          section: "News",},{id: "news-we-launched-looseleaf-a-serverless-gpu-platform-for-jupyter-notebooks-now-open-to-everyone-at-uva",
+          title: '🚀 We launched LooseLeaf, a serverless GPU platform for Jupyter notebooks, now open...',
           description: "",
           section: "News",},{
         id: 'social-email',
