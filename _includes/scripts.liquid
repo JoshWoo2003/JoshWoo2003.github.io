@@ -227,15 +227,7 @@
   <!-- Analytics -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', '{{ site.google_analytics }}');
-  </script>
+  <!-- gtag setup lives only in google-analytics-setup.js; a second inline gtag('config') would record every page view twice -->
   <script defer src="{{ '/assets/js/google-analytics-setup.js' | relative_url }}"></script>
 {% endif %}
 
