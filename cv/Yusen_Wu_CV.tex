@@ -11,6 +11,12 @@
 \usepackage{hyperref}
 \hypersetup{hidelinks}
 
+\usepackage{graphicx}
+% Project logos in logos/: looseleaf-lockup.png is the official LooseLeaf lockup
+% (branding/looseleaf-logo, light colourway, transparent margin trimmed);
+% deepspeed-mark.png is the mark from DeepSpeed's docs/assets/images/DeepSpeed_light_transparent.svg.
+% \lockup puts a mark + wordmark in place of the project name.
+\newcommand{\lockup}[2][1.0em]{\raisebox{-0.18em}{\includegraphics[height=#1]{#2}}}
 \begin{document}
 
 \pagenumbering{gobble} % suppress displaying page number
@@ -36,12 +42,12 @@
 
 \section{\faList~\textbf{Publications}}
 \begin{itemize}[parsep=0.5ex]
-  \item \textbf{[SIGMOD'27]} Tingfeng Lan, \textbf{Yusen Wu}, Bin Ma, Zhaoyuan Su, Rui Yang, Tekin Bicer, Masahiro Tanaka, Olatunji Ruwase, Dong Li, Yue Cheng.
-    \href{https://arxiv.org/abs/2505.12242}{\textit{ZenFlow: Enabling Stall-Free Offloading for LLM Training.}}
-    ACM SIGMOD International Conference on Management of Data (SIGMOD), 2027. To appear.
   \item \textbf{[Preprint]} \textbf{Yusen Wu}, Tingfeng Lan, Benjamin Carver, Haoliang Wang, Geoffrey Fox, Yue Cheng.
     \href{https://arxiv.org/abs/2610.33275}{\textit{LooseLeaf: Enabling Serverless GPUs for Computational Notebooks.}}
     Under revision at VLDB 2027.
+  \item \textbf{[SIGMOD'27]} Tingfeng Lan, \textbf{Yusen Wu}, Bin Ma, Zhaoyuan Su, Rui Yang, Tekin Bicer, Masahiro Tanaka, Olatunji Ruwase, Dong Li, Yue Cheng.
+    \href{https://arxiv.org/abs/2505.12242}{\textit{ZenFlow: Enabling Stall-Free Offloading for LLM Training.}}
+    ACM SIGMOD International Conference on Management of Data (SIGMOD), 2027. To appear.
 \end{itemize}
 \vspace{-1.0em}
 
@@ -69,8 +75,10 @@
 \vspace{-1.0em}
 
 \section{\faList~\textbf{Open Source \& Deployment}}
-\datedline{\textbf{ZenFlow in DeepSpeed} (\href{https://github.com/deepspeedai/DeepSpeed/pull/7391}{\#7391}, \href{https://github.com/deepspeedai/DeepSpeed/pull/7516}{\#7516}), featured on the \href{https://pytorch.org/blog/zenflow-stall-free-offloading-engine-for-llm-training/}{PyTorch Blog}}{2025.08 -- 2025.10}
-\datedline{\textbf{LooseLeaf at \href{https://looseleafcloud.org}{looseleafcloud.org}}, open to the UVA community}{2026.10 -- Present}
+\datedline{\href{https://looseleafcloud.org}{\lockup{logos/looseleaf-lockup.png}} (under revision at VLDB'27) at \href{https://looseleafcloud.org}{looseleafcloud.org}}{2026.10 -- Present}
+Built and launched a publicly accessible GPU notebook service that reduces GPU waste for AI/ML notebooks.
+\datedline{\href{https://github.com/deepspeedai/DeepSpeed/releases/tag/v0.18.1}{\textbf{ZenFlow}} (SIGMOD'27) in \href{https://github.com/deepspeedai/DeepSpeed}{\raisebox{-0.15em}{\includegraphics[height=1.0em]{logos/deepspeed-mark.png}}\,DeepSpeed}, featured on the \href{https://pytorch.org/blog/zenflow-stall-free-offloading-engine-for-llm-training/}{PyTorch Blog}}{2025.08 -- 2025.10}
+Implemented stall-free offloading for LLM training (\href{https://github.com/deepspeedai/DeepSpeed/pull/7391}{\#7391}, \href{https://github.com/deepspeedai/DeepSpeed/pull/7516}{\#7516}); it also runs on \href{https://github.com/Ascend/docs/blob/5fae86e5e76b4e1d86dd8f9c687266bca5a581ed/examples-guards/deepspeed/examples_manifest.yaml#L199-L213}{Huawei Ascend NPUs}.
 
 \section{\faList~\textbf{Honors and Awards}}
 \datedline{National Scholarship, Ministry of Education of China (awarded to 0.2\% of students)}{2021 -- 2022}
