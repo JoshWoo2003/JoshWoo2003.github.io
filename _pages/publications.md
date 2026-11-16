@@ -14,6 +14,11 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+<!-- Preprints first, then accepted papers grouped by year (newest first).
+     A paper moves out of Preprints once its abbr changes from "Preprint" to a venue. -->
+<h2 class="bibliography">Preprints</h2>
+{% bibliography --group_by none --query @*[abbr=Preprint]* %}
+
+{% bibliography --query @*[abbr!=Preprint]* %}
 
 </div>
